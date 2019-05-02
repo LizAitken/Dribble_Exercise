@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("background_red_girl.jpg"); 
+    background-size: cover;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 1rem;
+    letter-spacing: 0.4rem;
+}
+
+.header-top p {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 9px;
+}
+
+.top-ul-bar {
+    font-size: 14px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-ul-bar li {
+    padding: 0 3rem;
+}
+
+main {
+    height: calc(100vh - 12.25rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-start;
+    margin: 0 0 0 12%;
+    width: 100%; 
+    max-width: 700px;
+}
+
+main h1 {
+    font-size: 100px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+main p {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    max-width: 500px;
+}
+
+a {
+    padding: 0 24px 0 0;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+}
